@@ -1,0 +1,28 @@
+2019-09-18 11:05:09.143 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/  
+2019-09-18 11:05:09.143 +00:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:54005/  0
+2019-09-18 11:05:09.236 +00:00 [INF] Request finished in 102.3764ms 200 
+2019-09-18 11:05:09.881 +00:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action GICMicro.Controllers.HomeController.Index (CRMApplication)
+2019-09-18 11:05:09.905 +00:00 [INF] Executing action method GICMicro.Controllers.HomeController.Index (CRMApplication) - Validation state: "Valid"
+2019-09-18 11:05:09.913 +00:00 [INF] List of Dashboard Data retreived on : 9/18/2019 11:05:09 AM
+2019-09-18 11:05:09.927 +00:00 [INF] Executed action method GICMicro.Controllers.HomeController.Index (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.9992ms.
+2019-09-18 11:05:10.003 +00:00 [INF] Executing ViewResult, running view Index.
+2019-09-18 11:05:10.240 +00:00 [INF] Executed ViewResult - view Index executed in 293.3345ms.
+2019-09-18 11:05:10.243 +00:00 [INF] Executed action GICMicro.Controllers.HomeController.Index (CRMApplication) in 359.22130000000004ms
+2019-09-18 11:05:10.276 +00:00 [INF] Request finished in 1128.2075ms 200 text/html; charset=utf-8
+2019-09-18 11:05:14.867 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/Company  
+2019-09-18 11:05:14.870 +00:00 [INF] Route matched with {action = "Index", controller = "Company"}. Executing action GICMicro.Controllers.CompanyController.Index (CRMApplication)
+2019-09-18 11:05:14.951 +00:00 [INF] Executing action method GICMicro.Controllers.CompanyController.Index (CRMApplication) - Validation state: "Valid"
+2019-09-18 11:05:14.954 +00:00 [INF] List of Company Data retreived on : 9/18/2019 11:05:14 AM
+2019-09-18 11:05:16.039 +00:00 [INF] Executed action method GICMicro.Controllers.CompanyController.Index (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1083.8686ms.
+2019-09-18 11:05:16.046 +00:00 [INF] Executing ViewResult, running view Index.
+2019-09-18 11:05:16.132 +00:00 [INF] Executed ViewResult - view Index executed in 89.6808ms.
+2019-09-18 11:05:16.135 +00:00 [INF] Executed action GICMicro.Controllers.CompanyController.Index (CRMApplication) in 1262.2403000000002ms
+2019-09-18 11:05:16.138 +00:00 [INF] Request finished in 1271.7235ms 200 text/html; charset=utf-8
+2019-09-18 11:05:19.815 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/Products/Create  
+2019-09-18 11:05:19.826 +00:00 [INF] Route matched with {action = "Create", controller = "Products"}. Executing action GICMicro.Controllers.ProductsController.Create (CRMApplication)
+2019-09-18 11:05:19.831 +00:00 [INF] Executing action method GICMicro.Controllers.ProductsController.Create (CRMApplication) - Validation state: "Valid"
+2019-09-18 11:05:19.836 +00:00 [INF] Executed action method GICMicro.Controllers.ProductsController.Create (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2225ms.
+2019-09-18 11:05:19.845 +00:00 [INF] Executing ViewResult, running view Create.
+2019-09-18 11:05:19.909 +00:00 [INF] Executed ViewResult - view Create executed in 67.4552ms.
+2019-09-18 11:05:19.922 +00:00 [INF] Executed action GICMicro.Controllers.ProductsController.Create (CRMApplication) in 83.2034ms
+2019-09-18 11:05:19.936 +00:00 [INF] Request finished in 114.475ms 200 text/html; charset=utf-8

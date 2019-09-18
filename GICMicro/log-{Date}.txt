@@ -9,3 +9,66 @@
 2019-09-18 09:51:21.958 +00:00 [INF] Executed ViewResult - view Index executed in 323.96790000000004ms.
 2019-09-18 09:51:21.989 +00:00 [INF] Executed action GICMicro.Controllers.HomeController.Index (CRMApplication) in 408.46590000000003ms
 2019-09-18 09:51:22.021 +00:00 [INF] Request finished in 1168.7746ms 200 text/html; charset=utf-8
+2019-09-18 10:37:59.351 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-09-18 10:38:00.077 +00:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action GICMicro.Controllers.HomeController.Index (CRMApplication)
+2019-09-18 10:38:00.131 +00:00 [INF] Executing action method GICMicro.Controllers.HomeController.Index (CRMApplication) - Validation state: "Valid"
+2019-09-18 10:38:00.176 +00:00 [INF] List of Dashboard Data retreived on : 9/18/2019 10:38:00 AM
+2019-09-18 10:38:00.201 +00:00 [INF] Executed action method GICMicro.Controllers.HomeController.Index (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 41.7554ms.
+2019-09-18 10:38:00.280 +00:00 [INF] Executing ViewResult, running view Index.
+2019-09-18 10:38:00.556 +00:00 [INF] Executed ViewResult - view Index executed in 332.59180000000003ms.
+2019-09-18 10:38:00.559 +00:00 [INF] Executed action GICMicro.Controllers.HomeController.Index (CRMApplication) in 478.86220000000003ms
+2019-09-18 10:38:00.571 +00:00 [INF] Request finished in 1340.0468ms 200 text/html; charset=utf-8
+2019-09-18 10:38:06.768 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Company  
+2019-09-18 10:38:06.801 +00:00 [INF] Route matched with {action = "Index", controller = "Company"}. Executing action GICMicro.Controllers.CompanyController.Index (CRMApplication)
+2019-09-18 10:38:06.924 +00:00 [INF] Executing action method GICMicro.Controllers.CompanyController.Index (CRMApplication) - Validation state: "Valid"
+2019-09-18 10:38:06.928 +00:00 [INF] List of Company Data retreived on : 9/18/2019 10:38:06 AM
+2019-09-18 10:38:08.220 +00:00 [INF] Executed action method GICMicro.Controllers.CompanyController.Index (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1293.6037000000001ms.
+2019-09-18 10:38:08.227 +00:00 [INF] Executing ViewResult, running view Index.
+2019-09-18 10:38:08.343 +00:00 [INF] Executed ViewResult - view Index executed in 87.737000000000009ms.
+2019-09-18 10:38:08.356 +00:00 [INF] Executed action GICMicro.Controllers.CompanyController.Index (CRMApplication) in 1542.1946ms
+2019-09-18 10:38:08.368 +00:00 [INF] Request finished in 1626.3094ms 200 text/html; charset=utf-8
+2019-09-18 10:38:46.589 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/  
+2019-09-18 10:38:46.589 +00:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:54005/  0
+2019-09-18 10:38:46.657 +00:00 [INF] Request finished in 78.0026ms 200 
+2019-09-18 10:38:47.053 +00:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action GICMicro.Controllers.HomeController.Index (CRMApplication)
+2019-09-18 10:38:47.078 +00:00 [INF] Executing action method GICMicro.Controllers.HomeController.Index (CRMApplication) - Validation state: "Valid"
+2019-09-18 10:38:47.087 +00:00 [INF] List of Dashboard Data retreived on : 9/18/2019 10:38:47 AM
+2019-09-18 10:38:47.098 +00:00 [INF] Executed action method GICMicro.Controllers.HomeController.Index (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.3545000000000007ms.
+2019-09-18 10:38:47.144 +00:00 [INF] Executing ViewResult, running view Index.
+2019-09-18 10:38:47.341 +00:00 [INF] Executed ViewResult - view Index executed in 227.8527ms.
+2019-09-18 10:38:47.344 +00:00 [INF] Executed action GICMicro.Controllers.HomeController.Index (CRMApplication) in 288.3369ms
+2019-09-18 10:38:47.364 +00:00 [INF] Request finished in 777.2912ms 200 text/html; charset=utf-8
+2019-09-18 10:38:51.298 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/Company  
+2019-09-18 10:38:51.302 +00:00 [INF] Route matched with {action = "Index", controller = "Company"}. Executing action GICMicro.Controllers.CompanyController.Index (CRMApplication)
+2019-09-18 10:38:51.465 +00:00 [INF] Executing action method GICMicro.Controllers.CompanyController.Index (CRMApplication) - Validation state: "Valid"
+2019-09-18 10:38:51.490 +00:00 [INF] List of Company Data retreived on : 9/18/2019 10:38:51 AM
+2019-09-18 10:38:52.524 +00:00 [INF] Executed action method GICMicro.Controllers.CompanyController.Index (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1056.3825000000002ms.
+2019-09-18 10:38:52.530 +00:00 [INF] Executing ViewResult, running view Index.
+2019-09-18 10:38:52.615 +00:00 [INF] Executed ViewResult - view Index executed in 85.5537ms.
+2019-09-18 10:38:52.741 +00:00 [INF] Executed action GICMicro.Controllers.CompanyController.Index (CRMApplication) in 1314.3237000000001ms
+2019-09-18 10:38:52.783 +00:00 [INF] Request finished in 1445.965ms 200 text/html; charset=utf-8
+2019-09-18 10:38:56.802 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/Products/Create  
+2019-09-18 10:38:56.826 +00:00 [INF] Route matched with {action = "Create", controller = "Products"}. Executing action GICMicro.Controllers.ProductsController.Create (CRMApplication)
+2019-09-18 10:38:56.832 +00:00 [INF] Executing action method GICMicro.Controllers.ProductsController.Create (CRMApplication) - Validation state: "Valid"
+2019-09-18 10:38:56.836 +00:00 [INF] Executed action method GICMicro.Controllers.ProductsController.Create (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3316ms.
+2019-09-18 10:38:56.847 +00:00 [INF] Executing ViewResult, running view Create.
+2019-09-18 10:38:56.937 +00:00 [INF] Executed ViewResult - view Create executed in 91.280300000000011ms.
+2019-09-18 10:38:56.941 +00:00 [INF] Executed action GICMicro.Controllers.ProductsController.Create (CRMApplication) in 112.01020000000001ms
+2019-09-18 10:38:56.954 +00:00 [INF] Request finished in 145.2033ms 200 text/html; charset=utf-8
+2019-09-18 10:39:00.955 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/  
+2019-09-18 10:39:00.959 +00:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action GICMicro.Controllers.HomeController.Index (CRMApplication)
+2019-09-18 10:39:00.962 +00:00 [INF] Executing action method GICMicro.Controllers.HomeController.Index (CRMApplication) - Validation state: "Valid"
+2019-09-18 10:39:00.965 +00:00 [INF] List of Dashboard Data retreived on : 9/18/2019 10:39:00 AM
+2019-09-18 10:39:00.968 +00:00 [INF] Executed action method GICMicro.Controllers.HomeController.Index (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.9789000000000003ms.
+2019-09-18 10:39:00.970 +00:00 [INF] Executing ViewResult, running view Index.
+2019-09-18 10:39:00.975 +00:00 [INF] Executed ViewResult - view Index executed in 3.2287000000000003ms.
+2019-09-18 10:39:00.982 +00:00 [INF] Executed action GICMicro.Controllers.HomeController.Index (CRMApplication) in 15.519ms
+2019-09-18 10:39:00.994 +00:00 [INF] Request finished in 30.9444ms 200 text/html; charset=utf-8
+2019-09-18 10:39:04.773 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/Company/Create  
+2019-09-18 10:39:04.781 +00:00 [INF] Route matched with {action = "Create", controller = "Company"}. Executing action GICMicro.Controllers.CompanyController.Create (CRMApplication)
+2019-09-18 10:39:04.786 +00:00 [INF] Executing action method GICMicro.Controllers.CompanyController.Create (CRMApplication) - Validation state: "Valid"
+2019-09-18 10:39:04.790 +00:00 [INF] Executed action method GICMicro.Controllers.CompanyController.Create (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.1383ms.
+2019-09-18 10:39:04.798 +00:00 [INF] Executing ViewResult, running view Create.
+2019-09-18 10:39:04.833 +00:00 [INF] Executed ViewResult - view Create executed in 35.558800000000005ms.
+2019-09-18 10:39:04.840 +00:00 [INF] Executed action GICMicro.Controllers.CompanyController.Create (CRMApplication) in 51.989000000000004ms
+2019-09-18 10:39:04.856 +00:00 [INF] Request finished in 76.7542ms 200 text/html; charset=utf-8

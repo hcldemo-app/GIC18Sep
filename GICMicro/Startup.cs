@@ -46,7 +46,7 @@ namespace GICMicro
                {
                    AutoRegisterTemplate = true,
                })
-              .WriteTo.File("log-{Date}.txt", Serilog.Events.LogEventLevel.Information)             
+              .WriteTo.File("log-"+DateTime.Now.Minute.ToString()+".txt", Serilog.Events.LogEventLevel.Information)             
               .CreateLogger();
         }
 
