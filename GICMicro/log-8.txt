@@ -1,0 +1,20 @@
+2019-09-18 12:08:23.610 +00:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:54005/  0
+2019-09-18 12:08:23.610 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/  
+2019-09-18 12:08:23.691 +00:00 [INF] Request finished in 91.6046ms 200 
+2019-09-18 12:08:24.127 +00:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action GICMicro.Controllers.HomeController.Index (CRMApplication)
+2019-09-18 12:08:24.178 +00:00 [INF] Executing action method GICMicro.Controllers.HomeController.Index (CRMApplication) - Validation state: "Valid"
+2019-09-18 12:08:24.196 +00:00 [INF] List of Dashboard Data retreived on : 9/18/2019 12:08:24 PM
+2019-09-18 12:08:24.207 +00:00 [INF] Executed action method GICMicro.Controllers.HomeController.Index (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.258000000000001ms.
+2019-09-18 12:08:24.269 +00:00 [INF] Executing ViewResult, running view Index.
+2019-09-18 12:08:24.487 +00:00 [INF] Executed ViewResult - view Index executed in 262.0206ms.
+2019-09-18 12:08:24.490 +00:00 [INF] Executed action GICMicro.Controllers.HomeController.Index (CRMApplication) in 359.5204ms
+2019-09-18 12:08:24.518 +00:00 [INF] Request finished in 908.3773ms 200 text/html; charset=utf-8
+2019-09-18 12:08:27.618 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/Company  
+2019-09-18 12:08:27.628 +00:00 [INF] Route matched with {action = "Index", controller = "Company"}. Executing action GICMicro.Controllers.CompanyController.Index (CRMApplication)
+2019-09-18 12:08:27.753 +00:00 [INF] Executing action method GICMicro.Controllers.CompanyController.Index (CRMApplication) - Validation state: "Valid"
+2019-09-18 12:08:37.278 +00:00 [INF] List of Company Data retreived on : 9/18/2019 12:08:37 PM
+2019-09-18 12:08:40.909 +00:00 [INF] Executed action method GICMicro.Controllers.CompanyController.Index (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 13152.7466ms.
+2019-09-18 12:08:40.921 +00:00 [INF] Executing ViewResult, running view Index.
+2019-09-18 12:08:41.005 +00:00 [INF] Executed ViewResult - view Index executed in 88.028900000000007ms.
+2019-09-18 12:08:41.014 +00:00 [INF] Executed action GICMicro.Controllers.CompanyController.Index (CRMApplication) in 13378.360200000001ms
+2019-09-18 12:08:41.022 +00:00 [INF] Request finished in 13399.9281ms 200 text/html; charset=utf-8

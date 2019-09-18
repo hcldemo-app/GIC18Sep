@@ -55,16 +55,17 @@ namespace GICMicro.Controllers
         // GET: Company
         public ActionResult Index()
         {
-            Log.Logger = new LoggerConfiguration()
-         .MinimumLevel
-         .Information()
-          .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri("http://elasticsearch:9200/"))
-          {
-              AutoRegisterTemplate = true,
-          })
-         .WriteTo.File("log-" + DateTime.Now.Minute.ToString() + ".txt", Serilog.Events.LogEventLevel.Information)
+            //   Log.Logger = new LoggerConfiguration()
+            //.MinimumLevel
+            //.Information()
+            // .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri("http://elasticsearch:9200/"))
+            // {
+            //     AutoRegisterTemplate = true,
+            // })
+            //.WriteTo.File("log-" + DateTime.Now.Minute.ToString() + ".txt", Serilog.Events.LogEventLevel.Information)
 
-         .CreateLogger();
+            //.CreateLogger();
+            _logger.LogInformation($"List of Company Data retreived on : {DateTime.UtcNow}");
 
 
             //  AddLogToNLog();
