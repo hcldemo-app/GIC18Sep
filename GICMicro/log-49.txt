@@ -1,0 +1,38 @@
+2019-09-20 08:49:56.781 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/  
+2019-09-20 08:49:56.781 +00:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:54005/  0
+2019-09-20 08:49:57.092 +00:00 [INF] Request finished in 287.3312ms 200 
+2019-09-20 08:49:58.415 +00:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action GICMicro.Controllers.HomeController.Index (CRMApplication)
+2019-09-20 08:49:58.534 +00:00 [INF] Executing action method GICMicro.Controllers.HomeController.Index (CRMApplication) - Validation state: "Valid"
+2019-09-20 08:49:58.567 +00:00 [INF] List of Dashboard Data retreived on : 9/20/2019 8:49:58 AM
+2019-09-20 08:49:58.606 +00:00 [INF] Executed action method GICMicro.Controllers.HomeController.Index (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 14.814ms.
+2019-09-20 08:49:58.798 +00:00 [INF] Executing ViewResult, running view Index.
+2019-09-20 08:49:59.747 +00:00 [INF] Executed ViewResult - view Index executed in 1024.3103ms.
+2019-09-20 08:49:59.763 +00:00 [INF] Executed action GICMicro.Controllers.HomeController.Index (CRMApplication) in 1331.5218ms
+2019-09-20 08:49:59.855 +00:00 [INF] Request finished in 3080.8389ms 200 text/html; charset=utf-8
+2019-09-20 08:50:05.719 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/lib/bootstrap/dist/js/bootstrap.js  
+2019-09-20 08:50:05.734 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2019-09-20 08:50:05.744 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/css/site.css  
+2019-09-20 08:50:05.755 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/lib/bootstrap/dist/css/bootstrap.css  
+2019-09-20 08:50:05.787 +00:00 [INF] The file /js/site.js was not modified
+2019-09-20 08:50:05.943 +00:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2019-09-20 08:50:06.120 +00:00 [INF] The file /css/site.css was not modified
+2019-09-20 08:50:06.147 +00:00 [INF] Request finished in 423.7111ms 304 application/javascript
+2019-09-20 08:50:06.176 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/lib/jquery/dist/jquery.js  
+2019-09-20 08:50:06.193 +00:00 [INF] Request finished in 350.4407ms 304 application/javascript
+2019-09-20 08:50:06.219 +00:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2019-09-20 08:50:06.304 +00:00 [INF] Request finished in 401.9979ms 304 text/css
+2019-09-20 08:50:06.376 +00:00 [INF] Request finished in 71.9343ms 304 application/javascript
+2019-09-20 08:50:06.393 +00:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2019-09-20 08:50:06.413 +00:00 [INF] Request finished in 850.8623ms 304 text/css
+2019-09-20 08:50:06.677 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2019-09-20 08:50:06.687 +00:00 [INF] The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2019-09-20 08:50:06.720 +00:00 [INF] Request finished in 26.8934ms 304 font/woff2
+2019-09-20 08:50:51.799 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:54005/Company  
+2019-09-20 08:50:51.816 +00:00 [INF] Route matched with {action = "Index", controller = "Company"}. Executing action GICMicro.Controllers.CompanyController.Index (CRMApplication)
+2019-09-20 08:50:52.246 +00:00 [INF] Executing action method GICMicro.Controllers.CompanyController.Index (CRMApplication) - Validation state: "Valid"
+2019-09-20 08:51:03.067 +00:00 [INF] List of Company Data retreived on : 9/20/2019 8:51:03 AM
+2019-09-20 08:51:06.313 +00:00 [INF] Executed action method GICMicro.Controllers.CompanyController.Index (CRMApplication), returned result Microsoft.AspNetCore.Mvc.ViewResult in 14049.787100000001ms.
+2019-09-20 08:51:06.394 +00:00 [INF] Executing ViewResult, running view Index.
+2019-09-20 08:51:06.776 +00:00 [INF] Executed ViewResult - view Index executed in 453.13930000000005ms.
+2019-09-20 08:51:06.792 +00:00 [INF] Executed action GICMicro.Controllers.CompanyController.Index (CRMApplication) in 14959.6635ms
+2019-09-20 08:51:06.803 +00:00 [INF] Request finished in 14997.1792ms 200 text/html; charset=utf-8

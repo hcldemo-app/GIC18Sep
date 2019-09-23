@@ -25,12 +25,12 @@ namespace GICMicro.Controllers
         ILogger<HomeController> _logger;
         public CompanyController(ILogger<HomeController> logger)
         {
-            _logger = logger;
-            
 
-            
-            //_logger.LogInformation($"List of Company Data retreived on : {DateTime.UtcNow}");
-
+            if (logger != null)
+            {
+                _logger = logger;
+            }
+           
             
 
         }
@@ -67,6 +67,7 @@ namespace GICMicro.Controllers
             //.CreateLogger();
             _logger.LogInformation($"List of Company Data retreived on : {DateTime.UtcNow}");
 
+           
 
             //  AddLogToNLog();
             return View(db.CompanyId.ToList());

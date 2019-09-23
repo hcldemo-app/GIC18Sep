@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using GICMicro.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Logging;
 
 namespace GICMicro.Controllers
 {
@@ -17,7 +18,38 @@ namespace GICMicro.Controllers
         // GET: Products
         public ActionResult Index()
         {
+
+            //try
+            //{
+            //    throw new DivideByZeroException();
+            //}
+            //catch (DivideByZeroException ex)
+            //{
+            //    LogHelper.l("TEST EXCEPTION", ex);
+            //}
+            //db.Product.ToList();
+
             return View(db.Product.ToList());
+        }
+
+        // GET: Products
+        public ActionResult GetProducts()
+        {
+
+           
+            //db.Product.ToList();
+
+            return View("GetProducts");
+        }
+
+        // GET: Products
+        public ActionResult GetLastProduct()
+        {
+
+
+            //db.Product.ToList();
+
+            return View("GetLastProduct");
         }
 
         // GET: Products/Details/5

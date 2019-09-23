@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using Serilog.Exceptions;
+using Serilog.Formatting.Compact;
 using Serilog.Sinks.Elasticsearch;
 
 namespace GICMicro
@@ -39,15 +40,20 @@ namespace GICMicro
             //   })
             //.CreateLogger();
 
-            Log.Logger = new LoggerConfiguration()
-              .MinimumLevel
-              .Information()
-               .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri(elasticUri))
-               {
-                   AutoRegisterTemplate = true,
-               })
-              .WriteTo.File("log-"+DateTime.Now.Minute.ToString()+".txt", Serilog.Events.LogEventLevel.Information)             
-              .CreateLogger();
+            //Log.Logger = new LoggerConfiguration()
+            //  .MinimumLevel
+            //  .Information()
+            //   .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri(elasticUri))
+            //   {
+            //       AutoRegisterTemplate = true,
+            //   })
+            //  .WriteTo.File("log.txt", Serilog.Events.LogEventLevel.Information)             
+            //  .CreateLogger();
+
+                        Log.Logger = new LoggerConfiguration()
+                .WriteTo.File(new CompactJsonFormatter(), "Giclog.txt")
+                .CreateLogger();
+
         }
 
         public IConfiguration Configuration { get; }
